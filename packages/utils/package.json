@@ -1,0 +1,26 @@
+{
+  "name": "@klimooc-cli-dev/utils",
+  "version": "0.0.0",
+  "description": "imc cli utils packages",
+  "keywords": [
+    "imooc",
+    "utils"
+  ],
+  "author": "Kevin Liu <kevin07liu@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/utils.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@klimooc-cli-dev/utils.test.js"
+  }
+}
