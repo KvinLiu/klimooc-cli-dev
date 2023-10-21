@@ -12,7 +12,11 @@ importers:
         specifier: ^7.4.1
         version: 7.4.1
 
-  packages/core: {}
+  packages/core:
+    dependencies:
+      '@klimooc-cli-dev/utils':
+        specifier: file:../utils
+        version: file:packages/utils
 
   packages/utils: {}
 
@@ -3893,3 +3897,8 @@ packages:
       y18n: 5.0.8
       yargs-parser: 21.1.1
     dev: true
+
+  file:packages/utils:
+    resolution: {directory: packages/utils, type: directory}
+    name: '@klimooc-cli-dev/utils'
+    dev: false
