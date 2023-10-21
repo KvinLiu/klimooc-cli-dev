@@ -1,6 +1,6 @@
 {
   "name": "@klimooc-cli-dev/core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "> TODO: description",
   "keywords": [
     "imooc",
@@ -26,6 +26,6 @@
     "access": "public"
   },
   "dependencies": {
-  "@klimooc-cli-dev/utils": "file:../utils"
-}
+    "@klimooc-cli-dev/utils": "file:../utils"
+  }
 }
